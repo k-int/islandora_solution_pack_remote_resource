@@ -1,0 +1,9 @@
+name = "Islandora Remote Resource"
+description = "Islandora Repository Remote Resource Module"
+dependencies[] = islandora
+dependencies[] = imagemagick
+package = Islandora
+core = 7.x
+version = 7.x-dev
+configure = admin/islandora/remote_resource
+stylesheets[all][] = css/islandora_remote_resource.theme.css
